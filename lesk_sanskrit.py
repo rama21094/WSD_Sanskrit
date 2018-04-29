@@ -90,7 +90,7 @@ def test(sentence,words,cos_sim=False):
 
 iwn= pyiwn.IndoWordNet('sanskrit')
 
-file = open('labled_data.txt',
+file = open('path/labeled_data.txt',
               encoding='utf-8').read()
 a=nltk.word_tokenize(file);
 
