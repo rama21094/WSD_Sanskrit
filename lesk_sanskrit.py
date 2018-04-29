@@ -1,11 +1,5 @@
-
-# coding: utf-8
-
-# In[14]:
-
-
 import nltk
-import re, math
+import math
 from pyiwn import pyiwn
 from collections import Counter
 
@@ -116,15 +110,6 @@ print("Number of wrongly classified word -",count[1])
 print("Number of unclassified word(due to limitation of wordnet pyiwn)-",count[2])
 
 print("Accuracy :", (count[0]/(count[0]+count[1]+count[2])))
-
-
-# In[6]:
-
-
-
-
-
-# In[9]:
 
 
 
